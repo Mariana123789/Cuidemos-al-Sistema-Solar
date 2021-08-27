@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+background:pink;
+color: rgb(128, 0, 53); 
+margin: 0px;
+font-family:'Anton' ;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    height: inherit;
+}
+
+
+
+.header{
+    background: fuchsia;
+    color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    height: 90px; 
+
+}
+.header li{
+    height: inherit;
+}
+.header a {
+color:black;
+text-decoration:none ;
+height: inherit;
+display: flex;
+align-items:center ;
+padding: 0px 10px ;
+}
+.logo img{
+    width: 100px; 
+}
+
+.menu{
+    height: inherit;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+
+h1 strong{
+    color:rgb(218, 11, 125) ;
+}
+.secundaria h2{
+    font-size:50px;
+    font-family: 'Merriweather', serif;
+}
+.secundaria p{
+    font-size:40px;
+    font-family: 'Merriweather', serif;
+}
+.principal{
+    color:white; 
+    text-align: center; 
+}
+
+.principal img{
+    width: 300px; 
+}
+.secundaria {
+    background-image: url("https://www.bbva.com/wp-content/uploads/2021/02/apertura-sostenibilidad-capa-de-ozono-bbva-1024x629.jpg");
+    text-align:right;
+    padding: 200px 50px;
+    margin:50px 100px ;
+    color: rgb(0, 255, 255);
+}
+.secundaria h2{
+    font-family: 'Bebas Neue', cursive;
+}
+.secundaria p{
+    font-family: 'Bebas Neue', cursive;
+}
+.Tercera{
+    background: deeppink;
+    text-align:left ;
+    padding: 50px 100px 25px 200px;
+    margin:100px 50px 25px 200px ;
+    color: black;
+}
+.Tercera h1{
+    font-size: 40px;
+}
+.Tercera p{
+    font-size: 30px;
+}
+.cuarta{
+    background: rgb(168, 0, 34);
+    text-align:center ;
+    padding:55px 100px 25px 70px ;
+    margin:100px 60px 25px 80px ;
+    color:white;
+}
